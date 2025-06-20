@@ -25,13 +25,13 @@ export default function PaymentPage() {
   }, [router])
 
   const handleCopyAmount = () => {
-    navigator.clipboard.writeText("6500")
+    navigator.clipboard.writeText("15000")
     setCopiedAmount(true)
     setTimeout(() => setCopiedAmount(false), 2000)
   }
 
   const handleCopyAccountNumber = () => {
-    navigator.clipboard.writeText("2048684033")
+    navigator.clipboard.writeText("2079154877")
     setCopiedAccount(true)
     setTimeout(() => setCopiedAccount(false), 2000)
   }
@@ -69,7 +69,7 @@ export default function PaymentPage() {
             </div>
           </div>
           <div className="text-right">
-            <div className="text-xl font-bold">NGN 6,500</div>
+            <div className="text-xl font-bold">NGN 15,000</div>
             <div className="text-gray-600">{formData.email}</div>
           </div>
         </div>
@@ -81,7 +81,7 @@ export default function PaymentPage() {
             <div>
               <p className="text-gray-700 mb-1">Amount</p>
               <div className="flex items-center justify-between">
-                <p className="font-bold">NGN 6,500</p>
+                <p className="font-bold">NGN 15,000</p>
                 <button onClick={handleCopyAmount} className="bg-orange-400 text-white px-3 py-1 rounded text-sm">
                   {copiedAmount ? "Copied" : "Copy"}
                 </button>
@@ -91,7 +91,7 @@ export default function PaymentPage() {
             <div>
               <p className="text-gray-700 mb-1">Account Number</p>
               <div className="flex items-center justify-between">
-                <p className="font-bold">2048684033</p>
+                <p className="font-bold">2079154877</p>
                 <button
                   onClick={handleCopyAccountNumber}
                   className="bg-orange-400 text-white px-3 py-1 rounded text-sm"
@@ -108,7 +108,7 @@ export default function PaymentPage() {
 
             <div>
               <p className="text-gray-700 mb-1">Account Name</p>
-              <p className="font-bold">Ebuka Sabastine</p>
+              <p className="font-bold">ADAMU MANSUR</p>
             </div>
           </div>
 
