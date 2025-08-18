@@ -27,7 +27,7 @@ export default function GroupsPage() {
   }
 
   const handleJoinTelegram = () => {
-    window.open("https://t.me/realtechrt", "_blank")
+    window.open("https://t.me/Reward_community", "_blank")
   }
 
   if (!userData) {
