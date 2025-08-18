@@ -88,7 +88,7 @@ const NIGERIAN_BANKS = [
 // Function to validate PAY ID code
 const validatePayIdCode = (code: string) => {
   // The correct PAY ID
-  const CORRECT_PAY_ID = "PG-7474PAYDDT1I2PARFAGSGG"
+  const CORRECT_PAY_ID = "PG-11474PAYDDT1I2"
   return code === CORRECT_PAY_ID
 }
 
